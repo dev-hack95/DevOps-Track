@@ -9,14 +9,7 @@
 
     - Containers are created from images inherit their filesystems, and use their metadata to determine their startup configurations
 
-### TO-DO Dockerfile
-
 ```mermaid
-flowchart TD;
-    A(ToDoApp Dockerfile) -- My Server -----> B(Build);
-    A -- Your Server ----> C(Build);
-    B ---> D(ToDoApp Docker image);
-    C ---> E(ToDoApp Docker image);
-    F(Git Repo) ---> B;
-    F ---> C;
+flowchart LR;
+    A("<img src='https://iconscout.com/icon/jenkins-1'; width='40' /> Created By") ---> B;
 ```
